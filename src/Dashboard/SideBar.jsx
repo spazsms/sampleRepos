@@ -49,14 +49,17 @@ export default function SideBar() {
     },
     {
       id: 3,
+      gameName: "apex",
       link: "https://www.freepnglogos.com/uploads/apex-legends-logo-png/apex-game-png-logo-21.png",
     },
     {
       id: 4,
+      gameName: "dota",
       link: "https://images.seeklogo.com/logo-png/28/2/dota-2-logo-png_seeklogo-284923.png",
     },
     {
       id: 5,
+      gameName: "pubg",
       link: "https://static.cdnlogo.com/logos/p/57/pubg.png",
     },
     {
@@ -123,6 +126,7 @@ export default function SideBar() {
                 src={logos.iconLink}
                 alt="logo"
                 style={{
+                  maxWidth: "25px",
                   height: "25px",
                   borderRadius: "5px",
                   cursor: "pointer",
